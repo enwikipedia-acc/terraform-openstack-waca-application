@@ -1,6 +1,6 @@
-# MediaWiki OAuth test wiki
+# Account Creation tool application infrastructure
 
-This module deploys the infrastructure for a MediaWiki test wiki with the OAuth extension deployed onto Wikimedia Cloud Services.
+This module deploys the infrastructure for the ACC tool
 
 For the actual application deployment, the accompanying Ansible playbook is also required.
 
