@@ -2,16 +2,16 @@ terraform {
   required_providers {
     openstack = {
       source  = "terraform-provider-openstack/openstack"
-      version = "~> 1.49.0"
+      version = "~> 1.48"
     }
 
     cloudvps = {
       source  = "terraform.wmcloud.org/registry/cloudvps"
-      version = "~> 0.1.3"
+      version = "~> 0.1"
     }
   }
 
-  required_version = "~> 1.3.6"
+  required_version = ">= 1.3"
 }
 
 resource "openstack_compute_instance_v2" "application" {
